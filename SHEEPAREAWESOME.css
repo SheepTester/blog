@@ -97,11 +97,28 @@ a:hover, a:active {
   background: rgba(255,255,255,0.08);
 }
 ul, ol {
+  list-style-type: none;
   padding-left: 10px;
 }
 ul ul, ol ul {
   list-style-type: inherit;
 }
-ul li:before {
+ul>li:before {
   content: '- ';
+}
+ol>li {
+  counter-increment: merp;
+}
+ol>li:before {
+  content: counter(merp) ' ';
+  font-weight: bold;
+  float: left;
+  width: 3em;
+}
+ol>li:first-child {
+  counter-reset: merp;
+}
+.posts > .post {
+  padding-bottom: 15px;
+  border-bottom: none;
 }
