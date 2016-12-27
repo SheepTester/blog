@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post # 2
+title: Post 2
 ---
 P
 
@@ -51,10 +51,17 @@ var deletesAccount=function(){
 ```
 
 >> BOB SURELY DIED
-
 > BOB DID NOT DIE
-
 NO HE DIED I'M SURE LOOK AT THESE PERFECTLY STRAIGHT LINE SEGMENTS
+
+>> test
+
+> test
+
+test
+
 ***
+
 ----
+
 ****
