@@ -56,6 +56,10 @@ code {
   border: none;
   background-color: rgba(255,255,255,0.1);
 }
+footer a {
+  display: inline-block;
+  padding: 0 5px;
+}
 footer a:hover, footer a:active, footer a:focus {
   background-color: transparent;
 }
@@ -112,8 +116,10 @@ ol>li {
 ol>li:before {
   content: counter(merp) ' ';
   font-weight: bold;
-  float: left;
-  width: 3em;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 ol>li:first-child {
   counter-reset: merp;
@@ -121,4 +127,7 @@ ol>li:first-child {
 .posts > .post {
   padding-bottom: 15px;
   border-bottom: none;
+}
+footer {
+  padding: 10px 0;
 }
