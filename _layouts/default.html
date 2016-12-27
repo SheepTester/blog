@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }}{% endif %} - Blog de Sean</title>
 
     {% include meta.html %}
 
@@ -9,6 +9,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/SHEEPAREAWESOME.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -27,8 +28,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="/">ACTUAL HOME PAGE</a>
+            <a href="{{ site.baseurl }}/">BLOG HOME PAGE</a>
+            <a href="{{ site.baseurl }}/ABOUT">WHO IS THIS</a>
           </nav>
         </header>
       </div>
