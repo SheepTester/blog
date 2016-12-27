@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post #2
+title: Post # 2
 ---
 P
 
