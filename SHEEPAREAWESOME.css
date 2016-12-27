@@ -131,3 +131,6 @@ ol>li:first-child {
 footer {
   padding: 10px 0;
 }
+hr {
+  border-color: rgba(255,255,255,0.5);
+}
