@@ -1,7 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 body {
   background: black;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-weight: normal;
+  margin: 10px 0;
+}
+::selection {
+  color: inherit;
+  background: rgba(0, 188, 212, 0.4);;
+}
+:focus {
+  background-color: rgba(255,255,255,0.1);
+}
+a:hover, a:active {
+  color: white;
+}
+nav a {
+  color: rgba(255,255,255,0.5);
+}
+.date {
+  font-style: normal;
+  color: rgba(255,255,255,0.3);
+  font-size: .7em;
+}
+.site-info {
+  display: none;
+}
+.wrapper-masthead {
+  margin-bottom: 0;
+}
+p {
+  margin: 10px 0;
+}
+article > h1 {
+  font-size: 40px;
+}
+code {
+  font-family: 'Inconsolata','Bitstream Vera Sans Mono','Courier', monospace;
+}
+.masthead {
+  padding: 20px 0;
+  border-bottom-color: rgba(255,255,255,0.5);
+}
+.wrapper-footer {
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border: none;
+  background-color: rgba(255,255,255,0.1);
+}
+a i {
+  transition: transform .2s;
+}
+a:hover i {
+  transform: scale(1.2);
+}
+#main {
+  margin-bottom: 100px;
 }
