@@ -10,7 +10,8 @@ layout: default
   </div>
 
   <div class="date">
-    Starting existing {{ page.date | date: "%e of %B, %Y" }}
+    <!-- http://jekyll.tips/jekyll-casts/date-formatting/ -->
+    {{ page.date | date: "%e%b'%y (a %A)" }}
   </div>
 
   {% include disqus.html %}
